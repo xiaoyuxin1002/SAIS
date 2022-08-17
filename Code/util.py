@@ -84,7 +84,7 @@ def evaluate(args, info, mode, triplets, sids):
     for triplet, sid in zip(triplets, sids):
         outputs.append({'title':triplet[0], 'h_idx':triplet[1], 't_idx':triplet[2], 'r':info.DATA_ID2REL[triplet[3]], 'evidence':sid.gt(args.FER_threshold).nonzero().flatten().tolist()})
 
-    json.dump(outputs, open(f'{info.FILE_RESULTS[mode]}_{info.index}.json', 'w'))
+    json.dump(outputs, open(f'{info.FILE_RESULTS[mode]}.json', 'w'))
 
     if mode == info.MODE_DEV:
 

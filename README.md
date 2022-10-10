@@ -24,7 +24,7 @@ Our model trained on _DocRED_ can be downloaded <a href="https://drive.google.co
 ## Citation
 
 ```
-@inproceedings{xiao2021sais,
+@inproceedings{xiao2022sais,
   title={SAIS: Supervising and Augmenting Intermediate Steps for Document-Level Relation Extraction},
   author={Xiao, Yuxin and Zhang, Zecheng and Mao, Yuning and Yang, Carl and Han, Jiawei},
   booktitle={NAACL},
